@@ -8,10 +8,11 @@ a {
     color: black;
     font-weight: bold;
     font-family:'Montserrat', sans-serif;
+
 }
 
 .wrapper {
-    background:#434255ab;
+    background: #434255ab;
     opacity: 0.75;
 }
 /****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
@@ -20,6 +21,7 @@ a {
 .h1s {
     font-family: 'Source Code Pro', monospace;
     color: white;
+ 
 }
 
 .divS {
@@ -33,9 +35,9 @@ a {
     background-image:url(./../Photos/bloom-blossom-flora-971360.jpg); 
 }
 
-/***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
 
-.divE
+
+/***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
 
 /***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
 
