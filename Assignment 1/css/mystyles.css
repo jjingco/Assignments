@@ -35,7 +35,9 @@ a {
 
 /***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
 
-.divE
+.divE {
+    font-family: 'Noto Sans JP', sans-serif;
+}
 
 /***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
 
