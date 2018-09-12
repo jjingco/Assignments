@@ -1,0 +1,46 @@
+h1 {
+    font-weight: bold;
+}
+
+a {
+    background-color:  #A9A7D6;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    font-family:'Montserrat', sans-serif;
+
+}
+
+.wrapper {
+    background:#434255ab;
+    opacity: 0.75;
+}
+/****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
+    /*use index page and inheritance*/
+
+.h1s {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+ 
+}
+
+.divS {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-weight: 500px;
+    padding-bottom: 50px;
+}
+
+.bodyS {
+    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg); 
+}
+
+
+
+/***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
+
+/***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
+
+/* Corporate - Colour Strategy: Analogous - Location: Page 4*/
+
+/* Fun - Colour Strategy: Split Complementary -Location: Page 5*/
