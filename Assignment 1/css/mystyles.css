@@ -11,7 +11,7 @@ a {
 }
 
 .wrapper {
-    background:#434255ab;
+    background:#5d5c80;
     opacity: 0.75;
 }
 /****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
@@ -24,13 +24,14 @@ a {
 
 .divS {
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
-    font-weight: 500px;
+    color: white;
+    font-weight: 600px;
     padding-bottom: 50px;
 }
 
 .bodyS {
-    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg); 
+    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);  
+    height:1635px;
 }
 
 /***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
