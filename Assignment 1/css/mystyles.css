@@ -31,7 +31,7 @@ a {
 }
 
 .bodyS {
-    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);  
+    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);  /*photo taken from pexels*/
 
 }
 
@@ -50,7 +50,7 @@ a {
     opacity: 1;
 }
 .backgroundE {
-    background-image: url(../Photos/pexels-photo-1328891.jpeg);
+    background-image: url(../Photos/pexels-photo-1328891.jpeg); 
 }
 .h1e {
     color: orange;
@@ -65,8 +65,19 @@ a {
 
 .pR {
     font-family: 'Overlock', cursive;
+    font-weight: bold;
 
 }
+
+.divR {
+    padding: 100px 10px;
+    background-image: url(../Photos/david-clode-536527-unsplash.jpg);
+    background-size: 100%;
+    color: white;
+    opacity: 1;
+
+}
+
 
 
 
