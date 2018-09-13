@@ -1,5 +1,6 @@
 h1 {
     font-weight: bold;
+    font-size: 40px;
 }
 
 a {
@@ -8,10 +9,11 @@ a {
     color: black;
     font-weight: bold;
     font-family:'Montserrat', sans-serif;
+    opacity: 0.75;
 }
 
 .wrapper {
-    background:#5d5c80;
+    background:#6362627a;
     opacity: 0.75;
 }
 /****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
@@ -31,17 +33,33 @@ a {
 
 .bodyS {
     background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);  
-    height:1635px;
+
 }
 
-/***** Energetic - Colour Strategy: Triad - Location: Page 2*****/
+/***** Energetic - Colour Strategy: Analogous - Location: Page 2*****/
 
 .divE {
     font-family: 'Noto Sans JP', sans-serif;
 }
-
+.pE {
+    color: white;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-width: 3px;
+    border-color: #dc4735;
+    padding: 10px;
+}
+.backgroundE {
+    background-image: url(../Photos/pexels-photo-1328891.jpeg);
+}
+.h1e {
+    color: orange;
+}
+.h2e {
+    color: #ff7af4;
+}
 /***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
 
-/* Corporate - Colour Strategy: Analogous - Location: Page 4*/
+/* Corporate - Colour Strategy: Triad - Location: Page 4*/
 
 /* Fun - Colour Strategy: Split Complementary -Location: Page 5*/
