@@ -73,7 +73,7 @@ a {
 .pR {
     font-family: 'Overlock', cursive;
     font-weight: bold;
-    padding: 100px 50px;
+    padding: 50px 50px;
     color:#22491d;
     background: #ffeefa;
 
@@ -91,16 +91,12 @@ a {
 
 .image {
     width: 600px;
+    padding: 20px 0 0 0;
 }
 
 img {
     width: 100%;
 }
-
-
-
-
-
 
 
 /* Corporate - Colour Strategy: Triad - Location: Page 4*/
