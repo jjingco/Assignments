@@ -1,5 +1,4 @@
 h1 {
-    font-weight: bold;
     font-size: 40px;
 }
 
@@ -63,20 +62,42 @@ a {
 /***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
 /*green & pink/fucia*/
 
+.wrapperR {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 10px 20px;
+}
+
 .pR {
     font-family: 'Overlock', cursive;
     font-weight: bold;
+    padding: 100px 50px;
+    color:#22491d;
+    background: #ffeefa;
 
 }
 
 .divR {
-    padding: 100px 10px;
+    padding: 100px 50px;
     background-image: url(../Photos/david-clode-536527-unsplash.jpg);
     background-size: 100%;
-    color: white;
+    color: lightpink;
     opacity: 1;
+    font-family: 'Corben', cursive;
 
 }
+
+.image {
+    width: 600px;
+}
+
+img {
+    width: 100%;
+}
+
+
 
 
 
