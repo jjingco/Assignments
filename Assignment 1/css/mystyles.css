@@ -76,7 +76,6 @@ a {
     padding: 50px 50px;
     color:#22491d;
     background: #ffeefa;
-
 }
 
 .divR {
@@ -86,7 +85,6 @@ a {
     color: lightpink;
     opacity: 1;
     font-family: 'Corben', cursive;
-
 }
 
 .image {
@@ -100,5 +98,23 @@ img {
 
 
 /* Corporate - Colour Strategy: Triad - Location: Page 4*/
+/*turquois, yellow and pink*/
+header {
+    height: 100px;
+    background: #222222;
+    margin: -8px;
+}
+
+.wrapperC {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 10px 20px ;
+}
+
+
+
+
 
 /* Fun - Colour Strategy: Split Complementary -Location: Page 5*/
