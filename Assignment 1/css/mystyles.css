@@ -3,54 +3,81 @@ h1 {
 }
 
 a {
-    background-color:  #4444;
+    background-color:  #bbbb;
     color: black;
     font-weight: bold;
     font-family:'Montserrat', sans-serif;
-    opacity: 0.75;
+    opacity: 0.85;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+a:hover{
+   background-color: aqua; 
+}
+
+/****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
+/*photo taken from pexels*/
+
+.bodyS {
+    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);   
 }
 
 .wrapper {
-    background:#6362627a;
-    opacity: 0.75;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 10px 20px ;
+    background-color: whitesmoke;
+    opacity: 0.85
+
 }
-/****** Sophisticated - Colour Strategy: One Colour - Location: Index Page*******/
-    /*use index page and inheritance*/
 
 .h1s {
     font-family: 'Source Code Pro', monospace;
-    color: white;
+    color:#685267;
 }
 
 .divS {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    color:#685267;
     font-weight: 600px;
     padding-bottom: 50px;
 }
 
-.bodyS {
-    background-image:url(./../Photos/bloom-blossom-flora-971360.jpg);  /*photo taken from pexels*/
-
-}
 
 /***** Energetic - Colour Strategy: Analogous - Location: Page 2*****/
+/*photo taken from pexels*/
+
+.wrapperE {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    opacity: 0.65;
+}
 
 .divE {
     font-family: 'Noto Sans JP', sans-serif;
+    opacity: 1;
 }
 .pE {
-    color: white;
+    color:red;
     border-left-style: solid;
     border-top-style: solid;
     border-width: 3px;
     border-color: #dc4735;
     padding: 0 10px;
+    font-family: sans-serif;
     opacity: 1;
 }
 .backgroundE {
     background-image: url(../Photos/pexels-photo-1328891.jpeg); 
 }
+
 .h1e {
     color: orange;
     text-shadow: 5px 0 0 #dc4735;
@@ -60,7 +87,7 @@ a {
     text-shadow: 3px 1px 1px black;
 }
 /***** Relaxed - Colour Strategy: Complementary - Location: Page 3****/
-/*green & pink/fucia*/
+/*images found on upsplashed*/
 
 .wrapperR {
     margin: 0 auto;
@@ -75,46 +102,118 @@ a {
     font-weight: bold;
     padding: 50px 50px;
     color:#22491d;
-    background: #ffeefa;
+    background: #e8d6e3;
 }
 
 .divR {
     padding: 100px 50px;
     background-image: url(../Photos/david-clode-536527-unsplash.jpg);
     background-size: 100%;
-    color: lightpink;
-    opacity: 1;
+    color: #fcc6ec;
     font-family: 'Corben', cursive;
 }
 
-.image {
-    width: 600px;
-    padding: 20px 0 0 0;
-}
-
-img {
-    width: 100%;
-}
-
-
 /* Corporate - Colour Strategy: Triad - Location: Page 4*/
-/*turquois, yellow and pink*/
+/*images found on upsplashed*/
+
+.backgroundC {
+    background-image: url(../Photos/taylor-barber-778078-unsplash.jpg);
+    background-position: 50% 50%;
+}
 header {
-    height: 100px;
+    height: 200px;
     background: #222222;
     margin: -8px;
+}
+
+.h1c{
+    color:#123b61;
+    font-family: 'Limelight', cursive;
+}
+
+.h2c {
+    color: #a1395b;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pC {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapperC {
     margin: 0 auto;
     width: 90%;
     max-width: 700px;
-    margin-top: 100px;
-    padding: 10px 20px ;
+    margin-top: -100px;
+    padding: 30px 50px 40px 50px;
+    background-color:#e3dfcf;
 }
 
+.card {
+    height: 175px;
+    width: 30%;
+    display:inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-top: 15px;
+}
 
+.image-container {
+    width:100%
+}
 
+img {
+    width: 100%; 
+    height: 175px;
+}
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* Fun - Colour Strategy: Split Complementary -Location: Page 5*/
+/*images found on upsplashed*/
+
+.backgroundF {
+    background-color: #f9d831;
+}
+
+.headerf {
+    background-image: url(../Photos/bruce-dixon-1002282-unsplash.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.wrapperF {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+    margin-top: -300px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.pF {
+    font-family: 'Overlock', cursive;
+    font-weight: bold;
+    padding: 25px 50px;
+    color: #ef6998;
+}
+
+.divF {
+    padding: 0 0 0 50px;
+    color: #03d1ab;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.h1f{
+    text-shadow: 5px 0 0  #f9d831;
+    font-size: 54px;
+    margin: 0;
+}
+
+.h2f{
+    margin: 0;
+}
