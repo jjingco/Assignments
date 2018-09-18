@@ -1,0 +1,100 @@
+/* * * * * * * * * * * * * * * * * * * * *
+General
+* * * * * * * * * * * * * * * * * * * * */
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header
+* * * * * * * * * * * * * * * * * * * * */
+header {
+    height: 66px;
+    background:rgb(34, 34, 34);
+}
+
+/* header .container {
+    height: 66px;
+} */
+
+.logo {
+    width: 150px;
+    color: peru;
+    margin-right: auto;
+}
+
+.logo span {
+    margin-left: 10px;
+}
+
+header ul {
+    margin-bottom: 0;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    height: 66px;
+    padding: 0 10px;
+    color: rgb(201, 151, 100);
+
+    display: flex;
+    align-items: center;
+}
+
+header ul li a:hover {
+    background: #f3f3f3; 
+    text-decoration: none;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Hero
+* * * * * * * * * * * * * * * * * * * * */
+.hero {
+    height: 500px;
+    background-image: 
+        linear-gradient(
+            black 50%,   
+            white 50%);
+        /* url(../kira-auf-der-heide-330895-unsplash.jpg); */
+    background-size: cover;
+    opacity: 0.90;
+    background-position: 50% 50%;
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * */
+main {
+    min-height: 400px;
+    padding: 80px 0;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * */
+footer {
+    height: 200px;
+    background:rgb(34, 34, 34);
+}
