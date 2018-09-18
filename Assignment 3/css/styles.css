@@ -71,11 +71,12 @@ Hero
     height: 500px;
     background-image: 
         linear-gradient(
-            black 50%,   
-            white 50%);
-        /* url(../kira-auf-der-heide-330895-unsplash.jpg); */
+            180deg,
+            transparent,    
+            black 98%,   
+            white),
+        url(../kira-auf-der-heide-330895-unsplash.jpg);
     background-size: cover;
-    opacity: 0.90;
     background-position: 50% 50%;
 }
 
@@ -95,6 +96,6 @@ main {
 Footer
 * * * * * * * * * * * * * * * * * * * * */
 footer {
-    height: 200px;
+    height: 100px;
     background:rgb(34, 34, 34);
 }
