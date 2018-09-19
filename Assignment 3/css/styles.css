@@ -8,11 +8,6 @@ General
   max-width: 1000px;
 }
 
-h1 {
-    font-family: 'Roboto', sans-serif;
-}
-
-
 
 
 
@@ -22,8 +17,7 @@ h1 {
 Header
 * * * * * * * * * * * * * * * * * * * * */
 header {
-    height: 66px;
-    background:white;
+    background-color: transparent;
 }
 
 .logo {
@@ -31,6 +25,8 @@ header {
     color: peru;
     margin-right: auto;
     font-family: 'Berkshire Swash', cursive;
+    font-size: 1.2em;
+
 }
 
 .logo span {
@@ -40,6 +36,7 @@ header {
 header ul {
     margin-bottom: 0;
     display: flex;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header ul li {
@@ -56,8 +53,9 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background: #f3f3f3; 
+    background: #ffc26c94; 
     text-decoration: none;
+    color: black;
 }
 
 
@@ -65,13 +63,54 @@ header ul li a:hover {
 Hero
 * * * * * * * * * * * * * * * * * * * * */
 .hero {
-    height: 600px;
-    background-image: 
+    height: 700px;
+    background-image:  
+        linear-gradient(
+        90deg, 
+        rgba(0, 0, 0, 0.4), 
+        rgba(0,0,0,0)), 
         url(../Pictures/charlie-costello-301722-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
+    color: white;
+    padding-top: 100px;
 }
 
+.hero-content {
+    width: 50%;
+}
+
+.hero h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 4em;
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero hr {
+    border-color: white;
+}
+
+.hero button {
+    color: white;
+    border: none;
+    background: #ef7547;
+    padding: 5px 10px;
+}
+
+.hero button:hover {
+    cursor: pointer;
+    background: #f18a64;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        height: 400px;
+    }
+    .hero-content {
+        width: 100%;
+    }
+}
 
 
 
@@ -81,6 +120,7 @@ Main
 main {
     min-height: 500px;
     padding: 80px 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .box1, .box2, .box3 {
@@ -88,9 +128,10 @@ main {
     height: 300px;
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding-top: 50px;
     margin-right: 5px;
 }
+
 
 .box1 {
     background-image: linear-gradient(
@@ -100,6 +141,11 @@ main {
         url(../Pictures/kira-auf-der-heide-330895-unsplash.jpg);
     background-size: cover;
     background-position: center;
+}
+
+.box1:hover {
+    opacity: 0.8;
+
 }
 
 .box2 {
@@ -112,17 +158,45 @@ main {
     background-position: center;
 }
 
+.box2:hover {
+    opacity: 0.8;
 
-
-main p {
-    padding-top: 50px;
 }
 
+.box3 {
+    background-image: linear-gradient(
+        180deg, 
+        rgba(0,0,0,0.95), 
+        rgba(0,0,0,0)), 
+        url(../Pictures/chris-coe-425129-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3:hover {
+    opacity: 0.8;
+
+}
+
+main h1 {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: justify;
+    padding: 20px 20px 80px 20px;
+    
+}
+
+main p {
+    padding-top: 15px;
+
+}
 
 /* * * * * * * * * * * * * * * * * * * * *
 Footer
 * * * * * * * * * * * * * * * * * * * * */
 footer {
     height: 300px;
-    background:rgb(197, 197, 197);
+    background:#432b07;
 }
