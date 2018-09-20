@@ -24,16 +24,28 @@
                     <li><a href="#"> Projects </a></li>
                     <li><a href="#"> Contact </a></li>
                 </ul>
+                <button class="hamburger-icon">
+                        <i class="fas fa-bars"></i>
+                </button>
             </div>
         </header>
 
         <div class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <h1>Find Out More...</h1>
+                    <h1>Send a Message...</h1>
                     <hr>
-                    <p>Browse my profile, projects and other fun stuff!</p>
-                    <button>Know More!</button>
+                    <label for="name"> Name: </label>
+                    <input type="text" id="name">
+                    <br>
+                    <label class="email" for="email"> Email: </label>
+                    <input type="text" id="email">
+                    <br>
+                    <div class="form-group textbox">
+                        <label for="exampleFormControlTextarea2">Comments:</label>
+                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="4"></textarea>
+                    </div>
+                    <button>Ask!</button>
                 </div>
             </div>
         </div>
@@ -47,19 +59,20 @@
                     that's through my travels or just every day stuff. Below
                     are a couple of samples of my work. Browse around and enjoy!
                 </p>
-                <div class="container d-flex ">
-                
-                    <div class="box1">
-                        <h2>Sample</h2>
-                        <p>Coming soon...</p>
-                    </div>
-                    <div class="box2">
+                <div class="container">
+                    <div class="row">
+                        <div class="box1 col-sm-12 col-md-6 col-lrg-3">
                             <h2>Sample</h2>
                             <p>Coming soon...</p>
-                    </div>
-                    <div class="box3">
+                        </div>
+                        <div class="box2 col-sm-12 col-md-6 col-lrg-3">
                             <h2>Sample</h2>
                             <p>Coming soon...</p>
+                        </div>
+                        <div class="box3 col-sm-12 col-md-6 col-lrg-3">
+                            <h2>Sample</h2>
+                            <p>Coming soon...</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,10 +82,11 @@
             <p> Connect with me!</p>
             <div class="container d-flex justify-content-center">
                 <ul class="social-media">
-                    <li> <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                    <li> <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                    <li> <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
-                    <li> <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li> <a href="#"><i class="fab fa-github"></i></a></li>
+                    <li> <a href="#"><i class="far fa-envelope"></i></a></li>
                 </ul>
             </div>
         </footer>
@@ -80,3 +94,5 @@
     </body>
 </html>
 
+<!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+<!-- https://getbootstrap.com/docs/4.1/examples/grid/ -->

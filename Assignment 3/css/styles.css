@@ -21,11 +21,11 @@ header {
 }
 
 .logo {
-    width: 150px;
+    width: 250px;
     color: peru;
     margin-right: auto;
     font-family: 'Berkshire Swash', cursive;
-    font-size: 1.2em;
+    font-size: 2em;
 
 }
 
@@ -58,6 +58,12 @@ header ul li a:hover {
     color: black;
 }
 
+.hamburger-icon {
+    display: none;
+    background: transparent;
+    border: none;
+}
+
 
 /* * * * * * * * * * * * * * * * * * * * *
 Hero
@@ -72,7 +78,7 @@ Hero
         url(../Pictures/charlie-costello-301722-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
-    color: peru;
+    color: rgb(107, 71, 34);
     padding-top: 100px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -80,20 +86,21 @@ Hero
 
 .hero-content {
     width: 50%;
+    height: 370px;
     background: white;
     padding: 20px;
-    opacity: 0.85;
+
 }
 
 .hero h1 {
     font-family: 'Tangerine', cursive;
-    font-size: 4em;
+    font-size: 3em;
     margin: 0;
     font-weight: 700;
 }
 
 .hero hr {
-    border-color:#291a04;
+    background:#3a2404;
     margin-top: 0;
 }
 
@@ -101,8 +108,7 @@ Hero
     color: white;
     border: none;
     background: #ef7547;
-    margin-top: 10px;
-    padding: 5px 10px;
+    padding: 0 10px;
 }
 
 .hero button:hover {
@@ -110,15 +116,19 @@ Hero
     background: #f18a64;
 }
 
-@media (max-width: 600px) {
-    .hero {
-        height: 400px;
-    }
-    .hero-content {
-        width: 100%;
-    }
+
+.email {
+    padding-left: 5px;
 }
 
+.textbox {
+    padding-top: 10px;
+}
+
+input {
+    font-size: 12px;
+    padding-right: 40px;
+}
 
 
 /* * * * * * * * * * * * * * * * * * * * *
@@ -126,19 +136,22 @@ Main
 * * * * * * * * * * * * * * * * * * * * */
 main {
     min-height: 500px;
-    padding: 80px 0;
+    padding: 100px 0;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
 
 .box1, .box2, .box3 {
     width: 100%;
     height: 300px;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 70px;
     margin-right: 10px;
     box-shadow: 0px 10px 20px 0px grey;
+    flex: 1;
+    margin-bottom: 10px;
 }
 
 
@@ -197,26 +210,66 @@ main p {
 
 }
 
+
+
 /* * * * * * * * * * * * * * * * * * * * *
 Footer
 * * * * * * * * * * * * * * * * * * * * */
 footer {
-    height: 200px;
+    height: 250px;
     background:#432b07;
     font-family: 'Open Sans', sans-serif;
+}
+
+footer li a {
+    color: #cfcfcf81;
 }
 
 .social-media {
     list-style: none;
     display: flex;
     flex-direction: row;
-    background: pink;
+    width: 60%;
+}
+
+.social-media li {
+    flex: 1;
+    padding-top: 50px;
 }
 
 footer p {
     text-align: center;
-    padding-top: 30px;
-    font-size: 2em;
+    padding-top: 40px;
+    font-size: 1.5em;
     font-weight: bold;
-    color: white;
+    color: #cfcfcf81;
+}
+
+/* * * * * * * * * * * * * * * * * * * * *
+Media Query
+* * * * * * * * * * * * * * * * * * * * */
+
+@media screen and (max-width: 800px) {
+    .hero {
+        height: 600px;
+    }
+    .hero-content {
+        width: 100%;
+    }
+
+    .logo {
+        width: 250px;
+        font-size: 1em;
+    }
+
+    .hamburger-icon {
+        display: block;
+    }
+    header ul {
+        display: none;
+    }
+    header {
+        height: 50px;
+    }
+
 }
