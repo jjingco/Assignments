@@ -1,3 +1,4 @@
+/* ************************   FOR ALL PAGES ********************************* */
 /* * * * * * * * * * * * * * * * * * * * *
 General
 * * * * * * * * * * * * * * * * * * * * */
@@ -7,10 +8,6 @@ General
   margin: 0 auto;
   max-width: 1000px;
 }
-
-
-
-
 
 
 /* * * * * * * * * * * * * * * * * * * * *
@@ -25,7 +22,8 @@ header {
     color: peru;
     margin-right: auto;
     font-family: 'Berkshire Swash', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 0.9;
 
 }
 
@@ -46,14 +44,14 @@ header ul li {
 header ul li a {
     height: 66px;
     padding: 0 10px;
-    color: rgb(150, 112, 73);
+    color: rgb(204, 151, 98);
 
     display: flex;
     align-items: center;
 }
 
 header ul li a:hover {
-    background: #ffc26c94; 
+    background: #ab7b3d; 
     text-decoration: none;
     color: black;
 }
@@ -64,94 +62,144 @@ header ul li a:hover {
     border: none;
 }
 
+/* * * * * * * * * * * * * * * * * * * * *
+Media Query
+* * * * * * * * * * * * * * * * * * * * */
+
+@media screen and (max-width: 800px) {
+
+    .hamburger-icon {
+        display: block;
+        color: rgb(204, 151, 98);
+    }
+    header ul {
+        display: none;
+    }
+    header {
+        height: 60px;
+    }
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * */
+footer {
+    height: 250px;
+    background:#432b07;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer li a {
+    color:rgb(204, 151, 98);
+}
+
+.social-media {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.social-media li {
+    flex: 1;
+    padding-top: 50px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(204, 151, 98);
+}
+
+
+/* ************************  INDEX PAGE ONLY ***************************** */
 
 /* * * * * * * * * * * * * * * * * * * * *
 Hero
 * * * * * * * * * * * * * * * * * * * * */
-.hero {
-    height: 700px;
+.heroI {
+    height: 725px;
     background-image:  
         linear-gradient(
-        90deg, 
+        180deg, 
         rgba(0, 0, 0, 0.4), 
-        rgba(0,0,0,0)), 
+        rgba(0, 0, 0, 0)), 
         url(../Pictures/charlie-costello-301722-unsplash.jpg);
     background-size: cover;
-    background-position: bottom;
-    color: rgb(107, 71, 34);
+    color:rgb(255, 255, 255);
     padding-top: 100px;
+    background-position:  center bottom 100px;
     font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
-.hero-content {
-    width: 50%;
+.hero-contentI {
+    width: 60%;
     height: 370px;
-    background: white;
     padding: 20px;
-
 }
 
-.hero h1 {
+.heroI h1 {
     font-family: 'Tangerine', cursive;
     font-size: 3em;
-    margin: 0;
+    margin: 0 0 50px 0;
     font-weight: 700;
+
 }
 
-.hero hr {
-    background:#3a2404;
-    margin-top: 0;
-}
 
-.hero button {
+.heroI input  {
     color: white;
     border: none;
-    background: #ef7547;
-    padding: 0 10px;
+    background: #fc5e24;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 0.85em;
 }
 
-.hero button:hover {
+.heroI input:hover {
     cursor: pointer;
-    background: #f18a64;
+    background: #8a513d;
 }
 
-
-.email {
-    padding-left: 5px;
+.heroI-button {
+    margin-left: 20px;
 }
 
-.textbox {
-    padding-top: 10px;
-}
+@media screen and (max-width: 991px) {
 
-input {
-    font-size: 12px;
-    padding-right: 40px;
-}
+    .hero-contentI {
+        width: 100%;
+    }
+    .box1, .box2, .box3 {
+        margin-bottom: 10px;
+    }
 
+}
 
 /* * * * * * * * * * * * * * * * * * * * *
 Main
 * * * * * * * * * * * * * * * * * * * * */
-main {
+.main-wrapper {
     min-height: 500px;
-    padding: 100px 0;
+    padding: 50px 0;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 
 .box1, .box2, .box3 {
-    width: 100%;
     height: 300px;
     text-align: center;
     color: white;
     padding-top: 70px;
-    margin-right: 10px;
+    margin-right: auto;
     box-shadow: 0px 10px 20px 0px grey;
-    flex: 1;
-    margin-bottom: 10px;
 }
 
 
@@ -193,6 +241,7 @@ main {
         url(../Pictures/chris-coe-425129-unsplash.jpg);
     background-size: cover;
     background-position: center;
+    margin-right: 0;
 }
 
 .box3:hover {
@@ -211,66 +260,157 @@ main p {
 }
 
 
+main h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+
+
+/* ************************  ABOUT PAGE ONLY ***************************** */
 
 /* * * * * * * * * * * * * * * * * * * * *
-Footer
+Main
 * * * * * * * * * * * * * * * * * * * * */
-footer {
-    height: 250px;
-    background:#432b07;
+
+.about-wrapper  {
+    height: 1500px;
+    padding:50px;
+    background-image: url(../Pictures/ian-froome-367862-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 75% 75%;
+    opacity: 0.95;
+    background-repeat: no-repeat;
+}
+
+.about1 {
+    margin-top: 100px;
+    width: 70%;
+}
+
+.about-text {
+    color: white;
+    opacity: 0.75;
+}
+
+
+.about2 {
+    margin-top: 100px;
+    height: 550px;
+    width: 70%;
+    color: white;
+    /* background: red; */
+    margin-left: auto;
+}
+
+.van-img1, .van-img2, .van-img3 {
+    height: 200px;
+    background: white;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border:solid white;
+}
+
+.van-img1 {
+    background-image: url(../Pictures/mike-benna-570243-unsplash.jpg);
+    background-size: cover;
+}
+
+.van-img2 {
+    background-image: url(../Pictures/james-walsh-623021-unsplash.jpg);
+    background-size: cover;
+}
+
+.van-img3 {
+    background-image: url(../Pictures/ayemin-ayemins-781550-unsplash.jpg);
+    background-size: cover;
+    margin-right: 0;
+}
+
+/* ************************  SERVICES PAGE ONLY ***************************** */
+
+/* * * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * */
+
+/* ************************  CONTACT  PAGE ONLY ***************************** */
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header
+* * * * * * * * * * * * * * * * * * * * */
+
+.hero {
+    height: 725px;
+    background-image: url(../Pictures/charlie-costello-301722-unsplash.jpg);
+    background-size: cover;
+    color: rgb(107, 71, 34);
+    padding-top: 100px;
+    background-position:  center bottom 100px;
     font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-footer li a {
-    color: #cfcfcf81;
-}
 
-.social-media {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
+.hero-content {
     width: 60%;
+    height: 370px;
+    background: white;
+    padding: 20px;
+    opacity: 0.8;
 }
 
-.social-media li {
-    flex: 1;
-    padding-top: 50px;
+.hero h1 {
+    font-family: 'Tangerine', cursive;
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
 }
 
-footer p {
-    text-align: center;
-    padding-top: 40px;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #cfcfcf81;
+.hero hr {
+    background:#3a2404;
+    margin-top: 0;
 }
 
-/* * * * * * * * * * * * * * * * * * * * *
-Media Query
-* * * * * * * * * * * * * * * * * * * * */
+.hero button {
+    color: white;
+    border: none;
+    background: #ef7547;
+    padding: 0 10px;
+}
 
-@media screen and (max-width: 800px) {
-    .hero {
-        height: 600px;
-    }
+.hero button:hover {
+    cursor: pointer;
+    background: #f18a64;
+}
+
+
+.email {
+    padding-left: 5px;
+}
+
+.textbox {
+    padding-top: 10px;
+}
+
+input {
+    font-size: 12px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 991px) {
+
     .hero-content {
         width: 100%;
     }
-
-    .logo {
-        width: 250px;
-        font-size: 1em;
-    }
-
-    .hamburger-icon {
-        display: block;
-        color: rgb(150, 112, 73);
-    }
-    header ul {
-        display: none;
-    }
-    header {
-        height: 50px;
+    .box1, .box2, .box3 {
+        margin-bottom: 10px;
     }
 
 }
+
+/* * * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * */
