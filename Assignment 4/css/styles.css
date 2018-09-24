@@ -62,6 +62,40 @@ header ul li a:hover {
     border: none;
 }
 
+.menu {
+    width: 300px;
+    background: #4e3208;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:0.4s;
+    transform: translate(0px, 0px);
+}
+
+.closed {
+    transform: translate(-500px, 0px);
+}
+
+#close-button {
+    background: transparent;
+    color: #ab7b3d;
+    padding: 10px;
+    border: none;
+}
+
+header .mobile-menu ul {
+    display: block;
+}
+
+#close-button:hover {
+    background: #ab7b3d; 
+    text-decoration: none;
+    color: black;
+}
+
+
+
 /* * * * * * * * * * * * * * * * * * * * *
 Media Query
 * * * * * * * * * * * * * * * * * * * * */
@@ -72,7 +106,7 @@ Media Query
         display: block;
         color: rgb(204, 151, 98);
     }
-    header ul {
+    .desktop-menu ul {
         display: none;
     }
     header {
@@ -342,6 +376,31 @@ Main
 /* * * * * * * * * * * * * * * * * * * * *
 Main
 * * * * * * * * * * * * * * * * * * * * */
+.services-wrapper {
+    padding:50px 0; 
+}
+
+
+.services-box1,
+.services-box2,
+.services-box3 {
+    background: red;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+/* when you hover half the box gives a discription --> animation */
+/* need 3 pictures plus contact buttons that take to contact page */
+/* media query only for smartphone view  */
+
+
+
+
+
+
+
+
+
 
 /* ************************  CONTACT  PAGE ONLY ***************************** */
 
@@ -353,7 +412,7 @@ Header
     height: 725px;
     background-image: 
     linear-gradient(90deg,
-        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.8),
         rgba(0,0,0,0)),
     url(../Pictures/Contact-Page/JoyJingcoVacationPic.jpg);
     background-size: cover;
@@ -420,9 +479,4 @@ input {
     .heroC-content h1{
         font-size: 4em;
     }
-
 }
-
-/* * * * * * * * * * * * * * * * * * * * *
-Main
-* * * * * * * * * * * * * * * * * * * * */

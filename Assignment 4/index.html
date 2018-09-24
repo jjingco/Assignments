@@ -18,16 +18,38 @@
                     <i class="fas fa-globe-americas"></i>
                     <span>Backpacker Creations</span>
                 </div>
-                <ul>
-                    <li><a href="./index.html"> Home </a></li>
-                    <li><a href="./About.html"> Profile </a></li>
-                    <li><a href="#"> Projects </a></li>
-                    <li><a href="./Services.html"> Services </a></li>
-                    <li><a href="./Contact.html"> Contact </a></li>
-                </ul>
-                <button class="hamburger-icon">
-                        <i class="fas fa-bars"></i>
+                <!-- desktop menu -->
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="./index.html"> Home </a></li>
+                        <li><a href="./About.html"> Profile </a></li>
+                        <li><a href="#"> Projects </a></li>
+                        <li><a href="./Services.html"> Services </a></li>
+                        <li><a href="./Contact.html"> Contact </a></li>
+                    </ul>
+                </div>
+
+                <!-- mobiile menu -->
+                <button class="hamburger-icon" id="hamburger-icon">
+                    <i class="fas fa-bars"></i>
                 </button>
+                <div class="menu closed" id="menu">
+                    <button id="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="mobile-menu">
+                        <ul>
+                            <li><a href="./index.html"> Home </a></li>
+                            <li><a href="./About.html"> Profile </a></li>
+                            <li><a href="#"> Projects </a></li>
+                            <li><a href="./Services.html"> Services </a></li>
+                            <li><a href="./Contact.html"> Contact </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script src="./app.js"></script>
+           
+        
             </div>
         </header>
 
@@ -94,3 +116,4 @@
 <!-- paralax --background attachment:fixed -->
 <!-- svg is a vector image  -->
     <!-- <svg xmlns="path"></svg> -->
+    <!-- flext froggy.com -->
