@@ -275,58 +275,66 @@ Main
 * * * * * * * * * * * * * * * * * * * * */
 
 .about-wrapper  {
-    height: 1500px;
     padding:50px;
-    background-image: url(../Pictures/ian-froome-367862-unsplash.jpg);
+    background-image: 
+        linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0)),
+        url(../Pictures/About-Page/ian-froome-367862-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: 75% 75%;
+    background-position: 75% 70%;
     opacity: 0.95;
     background-repeat: no-repeat;
+    opacity: 0.90;
+    color: white;
 }
 
 .about1 {
-    margin-top: 100px;
-    width: 70%;
-}
-
-.about-text {
-    color: white;
-    opacity: 0.75;
+    margin-top: 50px;
+    width: 80%;
 }
 
 
 .about2 {
-    margin-top: 100px;
-    height: 550px;
-    width: 70%;
+    margin-top: 50px;
+    width: 80%;
+    text-align: end;
     color: white;
-    /* background: red; */
     margin-left: auto;
 }
+
 
 .van-img1, .van-img2, .van-img3 {
     height: 200px;
     background: white;
     margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     border:solid white;
 }
 
 .van-img1 {
-    background-image: url(../Pictures/mike-benna-570243-unsplash.jpg);
+    background-image: url(../Pictures/About-Page/debbie-molle-653466-unsplash.jpg);
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 .van-img2 {
-    background-image: url(../Pictures/james-walsh-623021-unsplash.jpg);
+    background-image: url(../Pictures/About-Page/simon-zhu-1002610-unsplash.jpg);
     background-size: cover;
+    background-position: 50% 20%;
 }
 
 .van-img3 {
-    background-image: url(../Pictures/ayemin-ayemins-781550-unsplash.jpg);
+    background-image: url(../Pictures/About-Page/mike-benna-570243-unsplash.jpg);
     background-size: cover;
     margin-right: 0;
+}
+
+.about1-cont {
+    margin-top: 50px;
+}
+
+.about-text {
+    margin-bottom: 50px;
 }
 
 /* ************************  SERVICES PAGE ONLY ***************************** */
@@ -341,9 +349,13 @@ Main
 Header
 * * * * * * * * * * * * * * * * * * * * */
 
-.hero {
+.heroC {
     height: 725px;
-    background-image: url(../Pictures/charlie-costello-301722-unsplash.jpg);
+    background-image: 
+    linear-gradient(90deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0)),
+    url(../Pictures/Contact-Page/JoyJingcoVacationPic.jpg);
     background-size: cover;
     color: rgb(107, 71, 34);
     padding-top: 100px;
@@ -354,34 +366,34 @@ Header
 }
 
 
-.hero-content {
+.heroC-content {
     width: 60%;
     height: 370px;
-    background: white;
+    color: rgb(253, 136, 18);
     padding: 20px;
-    opacity: 0.8;
+    margin-top: 100px;
 }
 
-.hero h1 {
+.heroC-content h1 {
     font-family: 'Tangerine', cursive;
-    font-size: 3em;
+    font-size: 5em;
     margin: 0;
     font-weight: 700;
 }
 
-.hero hr {
-    background:#3a2404;
+.heroC hr {
+    background:#ff9900;
     margin-top: 0;
 }
 
-.hero button {
+.heroC button {
     color: white;
     border: none;
     background: #ef7547;
     padding: 0 10px;
 }
 
-.hero button:hover {
+.heroC button:hover {
     cursor: pointer;
     background: #f18a64;
 }
@@ -402,11 +414,11 @@ input {
 
 @media screen and (max-width: 991px) {
 
-    .hero-content {
+    .heroC-content {
         width: 100%;
     }
-    .box1, .box2, .box3 {
-        margin-bottom: 10px;
+    .heroC-content h1{
+        font-size: 4em;
     }
 
 }
