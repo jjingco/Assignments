@@ -403,6 +403,7 @@ Main
         rgba(0, 0, 0, 1), 
         rgba(0, 0, 0, 0.5));
     position: relative;
+    border: 1px solid peru;
 }
 
 .services-box3 {
@@ -485,14 +486,6 @@ Main
     opacity: 1;
 
 }
-
-
-/* don't forget to download the beats2 notes from git */
-
-
-
-
-
 
 
 
