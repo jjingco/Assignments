@@ -321,6 +321,7 @@ Main
     background-repeat: no-repeat;
     opacity: 0.90;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .about1 {
@@ -386,6 +387,7 @@ Main
     background-attachment: fixed;
     background-repeat: no-repeat;
     align-content: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -393,7 +395,7 @@ Main
 .services-box2,
 .services-box3 {
     height: 550px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-right: auto;
     opacity: 0.85;
     background:linear-gradient(
@@ -410,7 +412,6 @@ Main
 .services-box-content {
     opacity: 1;
     color: white;
-    /* overflow: hidden; */
 }
 
 .services-box-content h1 {
@@ -421,24 +422,32 @@ Main
     margin-top: 100px;
 }
 
+
 .services-box-content p {
     height: 250px;
     margin-bottom: 0;
-    padding: 30px 20px;
+    padding: 40px 30px;
     margin-top: -130px;
     transform: translate(0px, -270px);
     position: relative;
     opacity: 0;
+    line-height: 1em;
  
 }
 
+.reader-hint {
+    text-align: center;
+    color: grey;
+}
+
+
 .border-box {
-    height: 250px;
+    height: 225px;
     width: 100%;
     position: relative;
     background: transparent;
     transform: translate(0px, -150px);
-    border: 7px solid white;
+    border: 7px solid peru;
     z-index: 1;
 }
 
@@ -476,8 +485,6 @@ Main
     opacity: 1;
 
 }
-
-
 
 
 /* don't forget to download the beats2 notes from git */
