@@ -353,16 +353,32 @@ Main
     background-position: 50% 50%;
 }
 
+.van-img1:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
 .van-img2 {
     background-image: url(../Pictures/About-Page/simon-zhu-1002610-unsplash.jpg);
     background-size: cover;
     background-position: 50% 20%;
 }
 
+.van-img2:hover {
+    transform: scale(1.3);
+    z-index: 1;
+}
+
+
 .van-img3 {
     background-image: url(../Pictures/About-Page/mike-benna-570243-unsplash.jpg);
     background-size: cover;
     margin-right: 0;
+}
+
+.van-img3:hover {
+    transform: scale(1.3);
+    z-index: 1;
 }
 
 .about1-cont {
@@ -497,7 +513,7 @@ Header
 * * * * * * * * * * * * * * * * * * * * */
 
 .heroC {
-    height: 700px;
+    height: 622px;
     background-image: 
     linear-gradient(90deg,
         rgba(0,0,0,0.8),
@@ -506,9 +522,8 @@ Header
     background-size: cover;
     color: rgb(107, 71, 34);
     padding-top: 100px;
-    background-position:  center bottom 100px;
+    background-position:  75% 50%;
     font-family: 'Open Sans', sans-serif;
-    background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
