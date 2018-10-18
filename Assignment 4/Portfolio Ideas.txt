@@ -1,0 +1,6 @@
+Card 1: Java Script
+Card 2: JQuery
+Card 3: JSON
+Card 4: Ruby
+Card 5: Python
+Card 6: PHP
